@@ -1,0 +1,14 @@
+body{
+    padding: 20px;
+}
+label{
+    /*display: block;*/
+}
+
+.radio{
+    display: none;
+}
+
+.radio:checked~.label{
+    border: 1px solid red;
+}

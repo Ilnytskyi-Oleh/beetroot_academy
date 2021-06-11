@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
+
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.screen{
+    padding-top: 140px;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.screen_item{
+    align-content: center;
+    width: 900px;
+}
+
+.screen_item:last-child{
+    text-align: center;
+
+}
+
+.bg_img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.screen_logo{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.main_title{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font-size: 54px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.description {
+    margin: 15px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+
+.text_card_fieldset {
+    /*max-width: 900px;*/
+    border: 3px solid #3c3c3c;
+    color: #3c3c3c;
+    padding: 75px 0px 50px 0px;
+    margin: 0 50px;
+    text-align: center;
+}
+
+.text_card{
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    margin: 165px auto;
+}
+
+.text_card_legend{
+    width: 70%;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 34px;
+    color: #808080;
+}
+
+
+
+.text_card_description{
+    margin: 0 auto;
+    padding: 0 50px;
+    max-width: 520px;
+    margin-bottom: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.services_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-white{
+    color: white;
+}
+
+.border-white{
+    border-color: white;
+}
+
+
